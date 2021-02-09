@@ -36,6 +36,12 @@ Akaunting uses [Laravel](http://laravel.com), the best existing PHP framework, a
 php artisan install --db-name="akaunting" --db-username="root" --db-password="pass" --admin-email="admin@company.com" --admin-password="123456"
 ```
 
+If have different port, e.g with Postgresql:
+
+```bash
+php artisan install --db-host="localhost" --db-port="5432" --db-name="akaunting" --db-username="postgres" --db-password="123456"
+```
+
 * Create sample data (optional): `php artisan sample-data:seed`
 
 ## Contributing
